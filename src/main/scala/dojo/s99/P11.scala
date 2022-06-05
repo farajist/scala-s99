@@ -13,8 +13,4 @@ object P11 {
       case hd :: Nil => hd
       case e: List[List[Symbol]] => (e.length, e.head)
     }
-
-  def main(args: Array[String]): Unit = {
-    println(encodeModified(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)))
-  }
 }

@@ -1,7 +1,6 @@
 package dojo.s99
 
 object P13 {
-
   def encodeDirect(l: List[Symbol]): List[(Int, Symbol)] = {
     if (l.isEmpty) Nil
     else {
